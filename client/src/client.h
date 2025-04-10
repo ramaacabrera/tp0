@@ -21,7 +21,11 @@ t_log* iniciar_logger(void){
 }
 t_config* iniciar_config(void)
 {
+<<<<<<< HEAD
 	t_config* nueva_config = config_create("cliente.config");
+=======
+    t_config* nueva_config = config_create("/home/utnso/tp0/client/cliente.config");
+>>>>>>> refs/remotes/origin/master
     if(nueva_config == NULL){
         perror("algo salio mal creando la config");
         abort();
@@ -77,3 +81,4 @@ void terminar_programa(int conexion, t_log* logger, t_config* config)
 }
 
 #endif /* CLIENT_H_ */
+

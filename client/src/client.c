@@ -59,3 +59,7 @@ int main(void)
 	// Proximamente
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/master

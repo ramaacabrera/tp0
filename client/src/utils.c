@@ -30,7 +30,11 @@ int crear_conexion(char *ip, char* puerto)
 	err = getaddrinfo(ip, puerto, &hints, &server_info);
 
 	if(err == -1){
+<<<<<<< HEAD
 		error_show("error al crear el socket del cliente");
+=======
+		error_show("crear el socket del cliente");
+>>>>>>> refs/remotes/origin/master
 		abort();
 	}
 
@@ -115,3 +119,4 @@ void liberar_conexion(int socket_cliente)
 {
 	close(socket_cliente);
 }
+
